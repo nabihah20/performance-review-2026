@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nabihah | Professional Performance & Technical Evaluation Dashboard 2026</title>
+  <meta name="description" content="Executive Review for Jan–Jun 2026 (H1) &amp; Strategic Roadmap for Jul–Dec 2026 (H2) — Nabihah binti Taquddin Azmy · Software Engineer · Ingenious Technology Solutions Sdn. Bhd." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ─── NAV ──────────────────────────────────────────────────────── -->
+  <nav class="nav" id="nav">
+    <div class="nav-brand">
+      <span class="nav-pulse"></span>
+      <span class="nav-logo">NB<span class="c-teal">.</span></span>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#summary"      class="nav-link">Summary</a></li>
+      <li><a href="#achievements" class="nav-link">Achievements</a></li>
+      <li><a href="#skills"       class="nav-link">Skills</a></li>
+      <li><a href="#growth"       class="nav-link">Growth</a></li>
+      <li><a href="#roadmap"      class="nav-link">Roadmap</a></li>
+      <li><a href="#timeline"     class="nav-link">Timeline</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark theme">
+        <!-- Sun (Dark Mode icon to toggle to light) -->
+        <svg class="sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+        </svg>
+        <!-- Moon (Light Mode icon to toggle to dark) -->
+        <svg class="moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 3a6.36 6.36 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+        </svg>
+      </button>
+      <button class="nav-burger" id="nav-burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ─── HERO ─────────────────────────────────────────────────────── -->
+  <header class="hero" id="top">
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-grid"></div>
+      <div class="glow g1"></div>
+      <div class="glow g2"></div>
+      <div class="glow g3"></div>
+      <canvas class="hero-canvas" id="hero-canvas"></canvas>
+    </div>
+
+    <div class="container hero-content">
+      <div class="hero-meta">
+        <span class="meta-badge">
+          <span class="live-dot"></span>H1 2026 · Executive Review
+        </span>
+        <span class="meta-sep">·</span>
+        <span class="meta-text">Ingenious Technology Solutions Sdn. Bhd.</span>
+      </div>
+
+      <h1 class="hero-h1">
+        <span class="h1-name">Nabihah</span>
+        <span class="h1-pipe">|</span>
+        <span class="h1-sub">Professional Performance<br class="mob-br"/> &amp; Technical Evaluation</span>
+      </h1>
+
+      <p class="hero-tagline"><p class="hero-tagline">Executive Review for Jan–Jun 2026 (H1) &amp; Strategic Roadmap for Jul–Dec 2026 (H2)</p></p>
+
+      <div class="hero-info-strip">
+        <div class="info-chip">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          Nabihah binti Taquddin Azmy
+        </div>
+        <div class="info-chip">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+          Software Engineer
+        </div>
+        <div class="info-chip">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          Jan – Jun 2026
+        </div>
+        <div class="info-chip">
+          <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          Supervisor: John Ding &amp; John Lai
+        </div>
+      </div>
+
+      <div class="focus-row">
+        <span class="focus-badge fb-blue">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+          Full-Stack Web Development
+        </span>
+        <span class="focus-badge fb-teal">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/></svg>
+          Embedded Systems &amp; Edge AI Pioneer
+        </span>
+        <span class="focus-badge fb-violet">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          Systems Operations Liaison
+        </span>
+      </div>
+
+      <div class="scroll-hint">
+        <span>Explore dashboard</span>
+        <svg class="scroll-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SECTION 1 · H1 EXECUTIVE SUMMARY
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section" id="summary">
+      <div class="container">
+        <div class="sec-head">
+          <span class="sec-label">Section 01 · H1 Executive Summary</span>
+          <h2 class="sec-title">Defining First-Half Performance</h2>
+          <p class="sec-desc">A pivotal career milestone representing a simultaneous transition from pure software into physical hardware engineering and edge intelligence, while anchoring enterprise client operations for the MECHIS platform.</p>
+        </div>
+
+        <!-- Milestone Banner -->
+        <div class="milestone-strip">
+          <div class="ms-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <div class="ms-body">
+            <span class="ms-kicker">Career Milestone · First Time Achievement</span>
+            <p>Crossed the boundary from <strong>pure software engineering</strong> into <strong>physical embedded hardware</strong> by programming <span class="hw">ESP32-S3</span> microcontrollers, flashing firmware, configuring low-level protocols (<span class="hw">I²C, SPI, PMU</span>), and deploying offline <span class="hw">TinyML</span> models on-chip. This was all achieved while managing full enterprise platform operations for JPS.</p>
+          </div>
+        </div>
+
+        <!-- Quadrant Cards (source: Weekly Report Progress logs) -->
+        <div class="quad-grid">
+
+          <div class="quad-card reveal" data-clr="blue">
+            <span class="quad-n">01</span>
+            <div class="quad-ico ico-blue">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="2" width="20" height="8" rx="2"/><rect x="2" y="14" width="20" height="8" rx="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg>
+            </div>
+            <h3>System Operations & &amp; Incident Management</h3>
+            <p>Managed front-line platform operations and support tracking for MECHIS. Acted as the core communication link between JPS stakeholders and our development team (VIA) to resolve support issues. Handled log escalations, coordinated with BPM on server storage updates, and performed short-term server stabilization steps when required to minimize system downtime.</p>
+            <div class="quad-tags">
+              <span class="qtag">IIS Manager</span><span class="qtag">MongoDB</span><span class="qtag">vSphere</span><span class="qtag">PostgreSQL</span>
+            </div>
+          </div>
+
+          <div class="quad-card reveal" data-clr="teal">
+            <span class="quad-n">02</span>
+            <div class="quad-ico ico-teal">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+            </div>
+            <h3>Project Ownership &amp; Handover</h3>
+            <p>Assumed full engineering ownership of all assets from team colleague Atikah, including Flutter mobile apps, system source code repositories, and physical Raspberry Pi hardware infrastructure, ensuring zero workflow disruption following team restructuring.</p>
+            <div class="quad-tags">
+              <span class="qtag">Flutter</span><span class="qtag">Raspberry Pi</span><span class="qtag">Git Repos</span>
+            </div>
+          </div>
+
+          <div class="quad-card reveal" data-clr="violet">
+            <span class="quad-n">03</span>
+            <div class="quad-ico ico-violet">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Full-Stack Web Development</h3>
+            <p>Built and deployed a production-ready Ticketing Support System solo, featuring a Node.js and Express.js backend hosted on Render, a React frontend on Vercel, Brevo SMTP email integration, role management, and password reset flows. This work was extended with NestJS learning for the Pintu Air Sungai Membakut update.</p>
+            <div class="quad-tags">
+              <span class="qtag">Node.js</span><span class="qtag">NestJS</span><span class="qtag">React</span><span class="qtag">Vercel</span>
+            </div>
+          </div>
+
+          <div class="quad-card reveal" data-clr="amber">
+            <span class="quad-n">04</span>
+            <div class="quad-ico ico-amber">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 1v4M12 19v4M4.22 4.22l2.83 2.83M16.95 16.95l2.83 2.83M1 12h4M19 12h4M4.22 19.78l2.83-2.83M16.95 7.05l2.83-2.83"/></svg>
+            </div>
+            <h3>Advanced IoT &amp; Edge AI (TinyML)</h3>
+            <p>Pioneered on-device ML from zero hardware experience by programming the <span class="hw">ESP32-S3 1.75" AMOLED</span> and <span class="hw">ESP32-S3-BOX-3</span>. Built, trained, and deployed a 6-axis IMU gesture recognition model offline on-chip via Edge Impulse and the EON Compiler. This capability was extended to voice keyword spotting, alongside delivering smart-home IR and lighting automation via ESP Rainmaker.</p>
+            <div class="quad-tags">
+              <span class="qtag">TinyML</span><span class="qtag">Edge Impulse</span><span class="qtag">ESP32-S3</span><span class="qtag">ESP Rainmaker</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- KPI stat strip (derived from weekly data) -->
+        <div class="kpi-strip">
+          <div class="kpi-card">
+            <span class="kpi-val">26</span>
+            <span class="kpi-label">Weekly Reports Submitted</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">3</span>
+            <span class="kpi-label">Day PKTOM Workshop Delivered</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">1 TB</span>
+            <span class="kpi-label">MongoDB Expansion Coordinated</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">2</span>
+            <span class="kpi-label">ESP32-S3 Platforms Mastered</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">100%</span>
+            <span class="kpi-label">Solo Deployment (Ticketing App)</span>
+          </div>
+          <div class="kpi-card">
+            <span class="kpi-val">On-Chip</span>
+            <span class="kpi-label">TinyML Offline Inference Live</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SECTION 2 · FIVE MAJOR ACHIEVEMENTS
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section section-alt" id="achievements">
+      <div class="container">
+        <div class="sec-head">
+          <span class="sec-label">Section 02 · Cross-referenced with Weekly Report H1 Data</span>
+          <h2 class="sec-title">Five Major Achievements</h2>
+          <p class="sec-desc">Key deliverables spanning enterprise operations, hardware engineering, full-stack development, and project ownership, all sourced directly from weekly progress logs.</p>
+        </div>
+
+        <div class="ach-list">
+
+          <!-- 01 PKTOM -->
+          <div class="ach-card reveal" id="ach-1">
+            <div class="ach-aside">
+              <div class="ach-num an-blue">01</div>
+              <div class="ach-vline"></div>
+            </div>
+            <div class="ach-main">
+              <div class="ach-top">
+                <div class="ach-ico ai-blue">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <div class="ach-head-txt">
+                  <h3>Successful Execution of MECHIS Programme of Knowledge Transfer, Operation &amp; Monitoring (PKTOM) Workshop</h3>
+                  <div class="ach-tags">
+                    <span class="atag at-blue">Client Relations</span>
+                    <span class="atag at-teal">Knowledge Transfer</span>
+                  </div>
+                </div>
+              </div>
+              <p>Coordinated the technical setup for the 3-day PKTOM workshop with JPS in Cyberjaya (25–27 Feb 2026 @ JPS Malaysia). Prepared presentation materials, updated the event schedule, and worked closely with our developer team (VIA) to align the technical content. Drafted the final event summary report to ensure a smooth technical handover and build long-term client trust.</p>
+              <div class="source-cite">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>
+                Weekly Report: Wks 5, 6, 7, 8, 9, 10, 11 (Jan–Mar 2026)
+              </div>
+              <div class="ach-stats">
+                <div class="stat-card sc-blue"><span class="sv">3</span><span class="sl">Day Workshop</span></div>
+                <div class="stat-card sc-blue"><span class="sv">JPS</span><span class="sl">Client</span></div>
+                <div class="stat-card sc-blue"><span class="sv">100%</span><span class="sl">Delivered</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 02 Edge AI -->
+          <div class="ach-card reveal" id="ach-2">
+            <div class="ach-aside">
+              <div class="ach-num an-teal">02</div>
+              <div class="ach-vline"></div>
+            </div>
+            <div class="ach-main">
+              <div class="ach-top">
+                <div class="ach-ico ai-teal">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/></svg>
+                </div>
+                <div class="ach-head-txt">
+                  <h3>Breakthrough into Embedded Systems &amp; Edge AI <span class="first-ever">First Time</span></h3>
+                  <div class="ach-tags">
+                    <span class="atag at-teal">TinyML</span>
+                    <span class="atag at-teal">Firmware</span>
+                    <span class="atag at-teal">Edge Impulse</span>
+                    <span class="atag at-teal">IoT</span>
+                  </div>
+                </div>
+              </div>
+              <p>Transitioned from zero hardware experience into physical embedded engineering. Studied hardware wiki specs, configured low-level protocols (<span class="hw">I²C, SPI, PMU, QSPI</span>), and programmed the <span class="hw">ESP32-S3 1.75" AMOLED Round Touch Display Board</span> to successfully build, train, and deploy an <strong>offline, on-chip TinyML gesture recognition model</strong> using its <span class="hw">6-axis IMU sensor</span> via Edge Impulse and the EON Compiler (Wk 15–24). Steps: data collection → AI model training → EON optimisation → on-chip compilation → offline inference confirmed. Simultaneously configured the <span class="hw">ESP32-S3-BOX-3</span> for voice-activated smart-home automation, including IR air-conditioner control and smart lighting, via <span class="tech">ESP Rainmaker</span> and the <span class="tech">SquareLine Studio</span> custom UI.</p>
+              <div class="source-cite">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>
+                Weekly Report: Wks 15–25 (Apr–Jun 2026) · Edge Impulse Gesture Recognition + Voice Keyword Spotting
+              </div>
+              <div class="ach-hw-grid">
+                <div class="hw-item">
+                  <span class="hw-label">Platform 1</span>
+                  <span class="hw">ESP32-S3 1.75" AMOLED</span>
+                  <span class="hw-role">TinyML Gesture + Voice KWS</span>
+                </div>
+                <div class="hw-item">
+                  <span class="hw-label">Platform 2</span>
+                  <span class="hw">ESP32-S3-BOX-3</span>
+                  <span class="hw-role">Smart-Home Voice Automation</span>
+                </div>
+                <div class="hw-item">
+                  <span class="hw-label">ML Pipeline</span>
+                  <span class="tech">Edge Impulse + EON Compiler</span>
+                  <span class="hw-role">On-chip Offline Inference</span>
+                </div>
+                <div class="hw-item">
+                  <span class="hw-label">IoT Platform</span>
+                  <span class="tech">ESP Rainmaker</span>
+                  <span class="hw-role">Device Control via WiFi</span>
+                </div>
+              </div>
+              <div class="ach-stats">
+                <div class="stat-card sc-teal"><span class="sv">2</span><span class="sl">HW Platforms</span></div>
+                <div class="stat-card sc-teal"><span class="sv">6-DOF</span><span class="sl">IMU Sensing</span></div>
+                <div class="stat-card sc-teal"><span class="sv">EON</span><span class="sl">Compiler</span></div>
+                <div class="stat-card sc-teal"><span class="sv">Offline</span><span class="sl">On-Chip AI</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 03 Ops Liaison -->
+          <div class="ach-card reveal" id="ach-3">
+            <div class="ach-aside">
+              <div class="ach-num an-violet">03</div>
+              <div class="ach-vline"></div>
+            </div>
+            <div class="ach-main">
+              <div class="ach-top">
+                <div class="ach-ico ai-violet">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+                </div>
+                <div class="ach-head-txt">
+                  <h3>Front-Line Warranty Support &amp; Platform Operations Liaison</h3>
+                  <div class="ach-tags">
+                    <span class="atag at-violet">Ops Management</span>
+                    <span class="atag at-violet">Incident Management</span>
+                    <span class="atag at-violet">IIS Workaround</span>
+                  </div>
+                </div>
+              </div>
+              <p>Maintained platform stability during the ongoing MECHIS warranty period in H1 2026 (continuing the cycle that began in H2 2025). Managed and smoothly resolved a large volume of incoming support issues from JPS clients and SCADA vendors with a high success rate. Monitored platform health, identified database capacity issues for BPM to action, and acted as the communications bridge during server 500 outages to execute temporary workarounds (IIS application pool recycles based on internal workflow instructions).</p>
+              <div class="source-cite">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>
+                Weekly Report: Wks 2–26 (Jan–Jul 2026) · Ongoing daily platform ops + Wk 4 MongoDB + Wk 14 IIS 500 fix
+              </div>
+              <div class="ach-stats">
+                <div class="stat-card sc-violet"><span class="sv">1 TB</span><span class="sl">DB Expansion</span></div>
+                <div class="stat-card sc-violet"><span class="sv">3×</span><span class="sl">Daily Monitoring</span></div>
+                <div class="stat-card sc-violet"><span class="sv">IIS</span><span class="sl">500 Fix</span></div>
+                <div class="stat-card sc-violet"><span class="sv">↓</span><span class="sl">Downtime</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 04 Ticketing App -->
+          <div class="ach-card reveal" id="ach-4">
+            <div class="ach-aside">
+              <div class="ach-num an-amber">04</div>
+              <div class="ach-vline"></div>
+            </div>
+            <div class="ach-main">
+              <div class="ach-top">
+                <div class="ach-ico ai-amber">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                </div>
+                <div class="ach-head-txt">
+                  <h3>End-to-End Full-Stack Development &amp; Deployment</h3>
+                  <div class="ach-tags">
+                    <span class="atag at-amber">Node.js</span>
+                    <span class="atag at-amber">Express.js</span>
+                    <span class="atag at-amber">Vercel</span>
+                    <span class="atag at-amber">Brevo SMTP</span>
+                  </div>
+                </div>
+              </div>
+              <p>Independently designed, developed, configured, and deployed a <strong>production-ready Ticketing Support System</strong> from scratch. Backend hosted on <span class="tech">Render</span> (<code>support-system-ec9u.onrender.com</code>), React frontend on <span class="tech">Vercel</span>. Features include user role management (Admin/Customer), reset password, Brevo SMTP email integration, real production data entry, and live bug fixes for localhost-to-production environment issues. Concurrently completed NestJS enterprise courses (CodeSignal) including security and enterprise features as preparation for the Pintu Air Sungai Membakut backend update.</p>
+              <div class="source-cite">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>
+                Weekly Report: Wks 2–8 (Dec 2025–Feb 2026) · Deployed & live on Vercel + Render
+              </div>
+              <div class="ach-stats">
+                <div class="stat-card sc-amber"><span class="sv">100%</span><span class="sl">Solo Build</span></div>
+                <div class="stat-card sc-amber"><span class="sv">Prod</span><span class="sl">Live</span></div>
+                <div class="stat-card sc-amber"><span class="sv">Brevo</span><span class="sl">SMTP</span></div>
+                <div class="stat-card sc-amber"><span class="sv">NestJS</span><span class="sl">Certified</span></div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 05 Handover -->
+          <div class="ach-card reveal" id="ach-5">
+            <div class="ach-aside">
+              <div class="ach-num an-rose">05</div>
+              <div class="ach-vline" style="display:none;"></div>
+            </div>
+            <div class="ach-main">
+              <div class="ach-top">
+                <div class="ach-ico ai-rose">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <div class="ach-head-txt">
+                  <h3>Technical Handover Management &amp; Introductory Learning</h3>
+                  <div class="ach-tags">
+                    <span class="atag at-rose">Flutter</span>
+                    <span class="atag at-rose">Raspberry Pi</span>
+                    <span class="atag at-rose">Asset Transfer</span>
+                  </div>
+                </div>
+              </div>
+              <p>Successfully managed and documented the project handover process from a colleague (Atikah). Used this opportunity to step into completely unfamiliar technical domains, documenting repository structures while building an introductory, beginner-level understanding of Flutter mobile application codebases and Raspberry Pi hardware assets.</p>
+              <div class="source-cite">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/></svg>
+                Weekly Report: Wk 11 (KT session) + Wk 12 (full handover: Flutter, Laptop, Raspberry Pi)
+              </div>
+              <div class="ach-stats">
+                <div class="stat-card sc-rose"><span class="sv">0</span><span class="sl">Disruption</span></div>
+                <div class="stat-card sc-rose"><span class="sv">Full</span><span class="sl">Ownership</span></div>
+                <div class="stat-card sc-rose"><span class="sv">RPi</span><span class="sl">HW Infra</span></div>
+                <div class="stat-card sc-rose"><span class="sv">Flutter</span><span class="sl">Mobile Apps</span></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SECTION 3 · SKILLS MATRIX
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="sec-head">
+          <span class="sec-label">Section 03 · Core Competencies &amp; Skills Matrix</span>
+          <h2 class="sec-title">Technical Skill Portfolio</h2>
+          <p class="sec-desc">A visual competency map across embedded firmware, full-stack architecture, and enterprise stakeholder management that reflects real H1 2026 practice.</p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Embedded / TinyML -->
+          <div class="sk-card sk-teal reveal">
+            <div class="sk-card-hd">
+              <div class="sk-ico sik-teal">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="15" x2="23" y2="15"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="15" x2="4" y2="15"/></svg>
+              </div>
+              <div>
+                <h3>Embedded Firmware &amp; TinyML Deployment</h3>
+                <span class="new-skill">✨ Newly Acquired in H1 2026</span>
+              </div>
+            </div>
+            <p style="margin-bottom: 16px;">
+              Demonstrated strong technical adaptability in H1 by expanding from pure software development into physical hardware engineering, learning to configure toolchains, design embedded screen layouts, and deploy offline machine learning models onto microcontrollers.
+            </p>
+            <div class="sk-badges">
+              <span class="sbadge sb-teal">Firmware Flashing</span>
+              <span class="sbadge sb-teal">ESP-IDF</span>
+              <span class="sbadge sb-teal">Arduino IDE</span>
+              <span class="sbadge sb-teal">I²C Protocol</span>
+              <span class="sbadge sb-teal">SPI Protocol</span>
+              <span class="sbadge sb-teal">PMU Config</span>
+              <span class="sbadge sb-teal">QSPI</span>
+              <span class="sbadge sb-teal">SquareLine Studio</span>
+              <span class="sbadge sb-teal">ESP32-S3 AMOLED</span>
+              <span class="sbadge sb-teal">ESP32-S3-BOX-3</span>
+              <span class="sbadge sb-teal">Edge Impulse</span>
+              <span class="sbadge sb-teal">EON Compiler</span>
+              <span class="sbadge sb-teal">TinyML / On-Chip AI</span>
+              <span class="sbadge sb-teal">6-Axis IMU</span>
+              <span class="sbadge sb-teal">Gesture Recognition</span>
+              <span class="sbadge sb-teal">Keyword Spotting</span>
+              <span class="sbadge sb-teal">ESP Rainmaker</span>
+              <span class="sbadge sb-teal">IR Control</span>
+            </div>
+          </div>
+
+          <!-- Full-Stack -->
+          <div class="sk-card sk-blue reveal">
+            <div class="sk-card-hd">
+              <div class="sk-ico sik-blue">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+              </div>
+              <div>
+                <h3>Full-Stack Software Architecture &amp; DevOps</h3>
+              </div>
+            </div>
+            <p style="margin-bottom: 16px;">
+              Maintains a reliable foundation in full-stack web development and routine infrastructure tracking, focusing on building lightweight backend services and performing standard server health checks to support core platform availability.
+            </p>
+            <div class="sk-badges">
+              <span class="sbadge sb-blue">NestJS</span>
+              <span class="sbadge sb-blue">React</span>
+              <span class="sbadge sb-blue">Node.js</span>
+              <span class="sbadge sb-blue">Express.js</span>
+              <span class="sbadge sb-blue">Flutter</span>
+              <span class="sbadge sb-blue">MongoDB</span>
+              <span class="sbadge sb-blue">PostgreSQL</span>
+              <span class="sbadge sb-blue">Vercel</span>
+              <span class="sbadge sb-blue">Render</span>
+              <span class="sbadge sb-blue">Brevo SMTP</span>
+              <span class="sbadge sb-blue">IIS Manager</span>
+              <span class="sbadge sb-blue">vSphere</span>
+              <span class="sbadge sb-blue">REST APIs</span>
+              <span class="sbadge sb-blue">Postman</span>
+              <span class="sbadge sb-blue">Linux CLI</span>
+            </div>
+
+          </div>
+
+          <!-- Stakeholder Mgmt -->
+          <div class="sk-card sk-violet sk-full reveal">
+            <div class="sk-card-hd">
+              <div class="sk-ico sik-violet">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+              </div>
+              <div>
+                <h3>Operational Liaison &amp; Issue Management</h3>
+              </div>
+            </div>
+            <p style="margin-bottom: 16px;">
+              Acts as a trusted operational link between enterprise clients and development teams, specialized in handling a high volume of incoming warranty support requests, analyzing logs, and streamlining multi-party communication workflows.
+            </p>
+            <div class="sk-badges sk-badges-wrap">
+              <span class="sbadge sb-violet">Enterprise Client Support (JPS)</span>
+              <span class="sbadge sb-violet">Development Team Coordination (VIA)</span>
+              <span class="sbadge sb-violet">System Handover</span>
+              <span class="sbadge sb-violet">Requirement Gathering</span>
+              <span class="sbadge sb-violet">PKTOM Delivery</span>
+              <span class="sbadge sb-violet">Incident Reporting</span>
+              <span class="sbadge sb-violet">SLA Management</span>
+              <span class="sbadge sb-violet">Technical Documentation</span>
+              <span class="sbadge sb-violet">Cross-Team Communication</span>
+              <span class="sbadge sb-violet">PostgreSQL Config Reports</span>
+              <span class="sbadge sb-violet">6-Month Usage Analysis</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SECTION 4 · GROWTH & FUTURE PLANNING
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section section-alt" id="growth">
+      <div class="container">
+        <div class="sec-head">
+          <span class="sec-label">Section 04 · Growth &amp; Future Planning</span>
+          <h2 class="sec-title">Professional Development Roadmap</h2>
+          <p class="sec-desc">Training aspirations, desired career trajectory, and personal reflection from the H1 2026 period.</p>
+        </div>
+
+        <div class="growth-layout">
+          <div class="growth-col-l">
+
+            <div class="growth-card reveal">
+              <div class="gc-ico gci-teal">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+              </div>
+              <h3>Training Desired</h3>
+
+              <div class="train-item">
+                <div class="tdot tdot-teal"></div>
+                <div>
+                  <span class="ttitle">Advanced TinyML &amp; Computer Vision at the Edge</span>
+                  <p class="tdesc">Deepen on-device AI capabilities beyond gesture recognition to include object detection, image classification, and ultra-low-power model optimisation for <span class="hw">ESP32</span> and similar MCU platforms. This builds on the EON Compiler and Edge Impulse pipeline already established in H1.</p>
+                </div>
+              </div>
+
+              <div class="train-item">
+                <div class="tdot tdot-blue"></div>
+                <div>
+                  <span class="ttitle">Cloud Architecture &amp; Containerization</span>
+                  <p class="tdesc">Master modern DevOps infrastructure to complement existing deployment skills (Vercel/Render) with enterprise-grade container orchestration and scalable cloud-native architectures.</p>
+                  <div class="tech-row">
+                    <span class="mini-badge">Docker</span>
+                    <span class="mini-badge">Kubernetes</span>
+                    <span class="mini-badge">AWS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="growth-card reveal">
+              <div class="gc-ico gci-amber">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+              </div>
+              <h3>Future Job Area Desired</h3>
+              <div class="future-roles">
+                <div class="fr-card">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/></svg>
+                  <span>IoT &amp; Intelligent Systems Engineering</span>
+                </div>
+                <div class="fr-card">
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+                  <span>Technical Project Lead</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="growth-col-r">
+            <div class="quote-card reveal">
+              <div class="q-ornament">"</div>
+              <blockquote class="q-text">
+                H1 has been a defining period for my career growth. Learning how code interfaces directly with physical chips, specifically by building on-chip TinyML models on the <span class="hw">ESP32-S3 1.75" AMOLED Board</span> and designing interactive smart-home voice automation on the <span class="hw">ESP32-S3-BOX-3</span> with zero prior hardware experience, has been incredibly rewarding.
+                <br /><br />
+                It has proven my adaptability to rapidly master unfamiliar tech stacks and add a brand-new dimension of intelligent hardware products to our team's portfolio.
+              </blockquote>
+              <div class="q-attr">
+                <div class="q-avatar">NB</div>
+                <div>
+                  <span class="q-name">Nabihah binti Taquddin Azmy</span>
+                  <span class="q-role">Software Engineer · H1 2026 Reflection</span>
+                </div>
+              </div>
+              <div class="q-chips">
+                <span class="q-chip">🔩 Embedded HW</span>
+                <span class="q-chip">🧠 TinyML / Edge AI</span>
+                <span class="q-chip">🚀 Growth Mindset</span>
+                <span class="q-chip">🤝 Client Operations</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SECTION 5 · H2 STRATEGIC ROADMAP
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section" id="roadmap">
+      <div class="container">
+        <div class="sec-head">
+          <span class="sec-label">Section 05 · H2 Strategic Roadmap &amp; Targets</span>
+          <h2 class="sec-title">Jul – Dec 2026 Objectives</h2>
+          <p class="sec-desc">A strategic roadmap outlining three key targets and two core improvement pillars for the second half of 2026 from July to December.</p>
+        </div>
+
+        <div class="roadmap-grid">
+
+          <div class="rm-card reveal">
+            <div class="rm-top">
+              <div class="rm-badge rmb-blue">Target 01</div>
+            </div>
+            <h3>MECHIS Platform Lifecycle Maintenance & 2-Year Contract Transition</h3>
+            <p>Prepare operational frameworks and updated tracking parameters for the upcoming new 2-year MECHIS maintenance contract expected in August 2026. Simultaneously ensure continuous platform SLA compliance by maintaining routine daily system health checks, reporting infrastructure errors promptly to the developer team, and validating permanent patches for server 500 errors.</p>
+          </div>
+
+          <div class="rm-card reveal">
+            <div class="rm-top">
+              <div class="rm-badge rmb-teal">Target 02</div>
+            </div>
+            <h3>Embedded Voice Recognition Maturity</h3>
+            <p>Advance keyword spotting on the <span class="hw">ESP32-S3 1.75" AMOLED Board</span> to successfully detect and classify voice commands, aiming for stable offline performance in standard environments.</p>
+          </div>
+
+          <div class="rm-card reveal">
+            <div class="rm-top">
+              <div class="rm-badge rmb-violet">Target 03</div>
+            </div>
+            <h3>Elevate Professional Support & Technical Communication</h3>
+            <p>Enhance cross-functional communication between the client (JPS) and our development team (VIA). Focus on delivering a highly professional support experience by refining technical incident logs, translating client feedback into clear technical briefs for developers, and providing transparent, structured status updates to stakeholders during critical system issue events.</p>
+          </div>
+
+        </div>
+
+        <!-- Key Planned Improvements -->
+        <div class="improve-block reveal">
+          <h3 class="ib-title">Key Planned Improvements</h3>
+          <div class="ib-grid">
+            <div class="ib-card">
+              <div class="ib-ico ibi-teal">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/></svg>
+              </div>
+              <div>
+                <h4>Deepening Embedded Engineering Fluency</h4>
+                <p>Master <span class="tech">ESP-IDF</span> toolchains, low-level hardware debugging, and production-grade embedded firmware patterns by building on H1 foundations in I²C/SPI/PMU configuration and EON Compiler optimisation to deliver fault-tolerant, performance-profiled firmware.</p>
+              </div>
+            </div>
+            <div class="ib-card">
+              <div class="ib-ico ibi-blue">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="2" y="3" width="20" height="14" rx="2"/><polyline points="8 21 12 17 16 21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+              </div>
+              <div>
+                <h4>Technical Process Automation</h4>
+                <p>Transition manual hourly MECHIS system health checks into <strong>automated alerting scripts</strong> to reduce reactive incident response time, eliminate operator fatigue, and establish event-driven monitoring for proactive anomaly detection and escalation.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════════════════
+         SECTION 6 · WEEKLY ACTIVITY TIMELINE
+    ═══════════════════════════════════════════════════════ -->
+    <section class="section section-alt" id="timeline">
+      <div class="container">
+        <div class="sec-head">
+          <span class="sec-label">Section 06 · Source Data · Weekly Progress Timeline</span>
+          <h2 class="sec-title">H1 2026 Weekly Activity Log</h2>
+          <p class="sec-desc">Selected highlights from the 26-week weekly report, cross-referenced to validate achievement claims. Data is extracted directly from <em>Weekly_Report_2026_nabihah_Updated.xlsx</em>.</p>
+        </div>
+
+        <div class="timeline">
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-blue"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 2 · 29 Dec 2025 – 2 Jan 2026</span><span class="tl-tag">MECHIS + Web Dev</span></div>
+              <p>Initiated MECHIS Malay translation testing, assisted JPS with PENYELENGGARAAN V3.3 slide updates, and set up free web hosting domain for Ticketing System development.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-blue"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 4 · 12–16 Jan 2026</span><span class="tl-tag">Critical: MongoDB + Ticketing Launch</span></div>
+              <p>Proactively caught <span class="hw">MongoDB</span> storage capacity crisis → coordinated BPM email for 100 GB → 1 TB expansion. Simultaneously hosted Ticketing System backend on <span class="tech">Render</span> and frontend on <span class="tech">Vercel</span>. Began NestJS CodeSignal training.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-blue"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 5 · 19–23 Jan 2026</span><span class="tl-tag">PKTOM Planning</span></div>
+              <p>Confirmed 3-day PKTOM dates (25–27 Feb @ JPS Malaysia) with JPS. Prepared formal tentative and official letter. Completed NestJS Enterprise Features course on CodeSignal.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-teal"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 8 · 9–13 Feb 2026</span><span class="tl-tag">PKTOM Prep + Brevo SMTP</span></div>
+              <p>Received official JPS confirmation letter for PKTOM. Upgraded Ticketing System to <span class="tech">Brevo SMTP</span> for production-stable email delivery. Investigated SISWA API integration anomaly reported by En Adli.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-teal"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 10 · 23–27 Feb 2026</span><span class="tl-tag">★ PKTOM Delivered</span></div>
+              <p><strong>Successfully executed the 3-day Programme of Knowledge Transfer, Operation &amp; Monitoring (PKTOM)</strong> with JPS @ JPS Malaysia. Coordinated with VIA for Knowledge Transfer sessions, drafted the post-event summary report.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-violet"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 12 · 9–12 Mar 2026</span><span class="tl-tag">Team Handover</span></div>
+              <p>Received full Knowledge Transfer from Atikah. Accepted handover of <span class="tech">Flutter</span> mobile apps, development laptop, and <span class="hw">Raspberry Pi</span> physical infrastructure. Zero disruption to ongoing MECHIS operations.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-violet"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 14 · 6–10 Apr 2026</span><span class="tl-tag">★ IIS 500 Error Fix</span></div>
+              <p>Diagnosed critical <span class="err">HTTP 500</span> outage — retrieved vSphere logs, escalated to VIA and BPM. Discovered and documented the IIS Application Pool restart fix: stop/start <code>mechis-rtu</code> + <code>mechis-user-api</code> on VM 10.1.4.71. Initiated Pintu Air Sungai Membakut source code analysis (NestJS/React).</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-amber"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 15 · 13–17 Apr 2026</span><span class="tl-tag">★ ESP32-S3 First Contact</span></div>
+              <p>First hardware session — studied <span class="hw">ESP32-S3 AMOLED</span> wiki, tested I²C, SPI, PMU protocols. Successfully ran hello world. Dispatched PostgreSQL configuration report to stakeholders.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-amber"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 17 · 27 Apr – 1 May 2026</span><span class="tl-tag">ESP32-S3-BOX-3 + AMOLED</span></div>
+              <p>Configured <span class="hw">ESP32-S3-BOX-3</span> sensors, IR air-conditioner, voice recognition, and smart light control. Successfully tested aircond on/off automation. Set up Eclipse Espressif IDE and flashed eWars360 on AMOLED board.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-amber"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 19–20 · 4–15 May 2026</span><span class="tl-tag">SquareLine Studio UI</span></div>
+              <p>Implemented <span class="tech">SquareLine Studio</span> screen designs onto ESP32-S3-BOX-3, flashed and monitored builds, debugged GitHub code, and implemented <span class="tech">ESP Rainmaker</span> WiFi device control successfully on remote networks.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-teal"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 21 · 18–22 May 2026</span><span class="tl-tag">Edge Impulse Initiated</span></div>
+              <p>Began <span class="tech">Edge Impulse</span> TinyML training tutorials. Developed ESP32-S3-BOX-3 v1 interactive countdown screen and v2 with WiFi + voice recognition sound integration.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-teal"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 22 · 25–29 May 2026</span><span class="tl-tag">TinyML Gesture — In Progress</span></div>
+              <p>Built a Motion/Gesture Recognition project using the <span class="hw">6-axis IMU sensor</span> — collecting data for Idle, Shaken, Tilted gestures. Integrated custom voice recognition audio cues into BOX-3 firmware v2.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-teal"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 24 · 15–19 Jun 2026</span><span class="tl-tag">★ TinyML On-Chip Deployed</span></div>
+              <p><strong>Milestone achieved:</strong> (1) Motion data successfully collected. (2) AI model trained. (3) Optimised with EON Compiler. (4) Code compiled &amp; uploaded. (5) <strong>AI operates offline on-chip — no internet required.</strong> Also resolved MECHIS gate graph inconsistencies and checked inactive station TCG Sg Air Hitam.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-teal"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 25 · 22–26 Jun 2026</span><span class="tl-tag">Voice KWS Initiated</span></div>
+              <p>Initiated secondary TinyML project: <strong>Voice Recognition (Keyword Spotting)</strong> using audio microphone input on ESP32-S3 AMOLED. Also resolved legacy <span class="tech">ESP-IDF v4.x</span> compilation conflicts in Pocket_agent project.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-blue"></div>
+            <div class="tl-card">
+              <div class="tl-hd"><span class="tl-date">Wk 26 · 29 Jun – 3 Jul 2026</span><span class="tl-tag">Voice Library Integration</span></div>
+              <p>Integrated the built voice recognition library as a component for hardware keyword detection. Fixed JSON data rendering anomalies on MECHIS for Empangan Timah Tasoh graph. Extended VPN validity through July 2026.</p>
+            </div>
+          </div>
+
+          <div class="tl-item reveal">
+            <div class="tl-dot tld-amber"></div>
+            <div class="tl-card tl-card-h2">
+              <div class="tl-h2-badge">H2 Begins</div>
+              <div class="tl-hd"><span class="tl-date">H2 Wk 1 · 6–9 Jul 2026</span><span class="tl-tag">TinyML Voice Display v1</span></div>
+              <p>Continued voice library integration. Deployed <strong>TinyML Voice-Controlled AMOLED Display v1</strong> — live demonstration available. Investigated 2 inactive MECHIS stations (Pintu Air Sg Bakong; Pintu Air Segantam Garam, Kedah).</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── FOOTER ───────────────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="f-brand">
+        <span class="f-name">Nabihah binti Taquddin Azmy</span>
+        <span class="f-role">Software Engineer · Ingenious Technology Solutions Sdn. Bhd.</span>
+      </div>
+      <div class="f-meta">
+        <div class="f-data-sources">
+          <span class="fds-label">Data Sources:</span>
+          <!-- Excel files download directly -->
+          <a href="Weekly_Report_2026_nabihah_Updated.xlsx" class="fds-item" download>📊 Weekly_Report_2026_nabihah_Updated.xlsx</a>
+          <!-- PDFs open smoothly in a new browser tab -->
+          <a href="Self_Performance_Evaluation_Form (nabihah) Jan-Jun 2026.pdf" class="fds-item" target="_blank">📋 Self_Performance_Evaluation_Form (nabihah) Jan-Jun 2026.pdf</a>
+        </div>
+        <div class="f-dates">
+          <span>Period: 1 Jan 2026 – 31 Dec 2026</span>
+          <span class="fdsep">·</span>
+          <span>Generated: 14 July 2026</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
